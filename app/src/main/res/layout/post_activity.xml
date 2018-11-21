@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Submit Post"
+        android:id="@+id/submit"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_description"
+        android:hint="Enter Description "
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:background="@drawable/input_outline"
+        android:layout_marginBottom="47dp"
+        android:layout_above="@+id/submit"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:hint="Enter Blog Title "
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/post_tite"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

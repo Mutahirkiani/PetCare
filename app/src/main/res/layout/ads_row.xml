@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/add_btn"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:id="@+id/post_image"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/post_tite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:text="Ad Title Goes here"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/post_image"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:maxLines="1"
+            android:id="@+id/post_description"
+            android:text="Ad Description Goes Here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/post_image"
+            android:layout_alignParentStart="true" />
+
+        android:layout_toEndOf="@+id/textView5" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

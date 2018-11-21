@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369333575505",
+    "firebase_url": "https://petcarefyp.firebaseio.com",
+    "project_id": "petcarefyp",
+    "storage_bucket": "petcarefyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369333575505:android:dda9b3a18fa79c21",
+        "android_client_info": {
+          "package_name": "com.example.mustafa.petcarefyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369333575505-cgp43g471jk35cg22v2d5ju54797d3p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mustafa.petcarefyp",
+            "certificate_hash": "36eda049bb9d339c37331d7b3b09f942a468695b"
+          }
+        },
+        {
+          "client_id": "369333575505-5ukcqnutqr965g4nq61mqm07fk604lru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOCiIdoSqFxssQFrgQv7nao4Fug0PAs6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369333575505-5ukcqnutqr965g4nq61mqm07fk604lru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
